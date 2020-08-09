@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyLibrary.BLL\MyLibrary.BLL.csproj" />
+    <ProjectReference Include="..\MyLibrary.Context\MyLibrary.Context.csproj" />
+    <ProjectReference Include="..\MyLibrary.Domain\MyLibrary.Domain.csproj" />
+    <ProjectReference Include="..\MyLibrary.Entities\MyLibrary.Entities.csproj" />
+    <ProjectReference Include="..\MyLibrary.Repositories\MyLibrary.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
