@@ -6,14 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace MyLibrary.Repositories.Generic
+namespace MyLibrary.Repositories
 {
-    public class DBRepository<T> : IDBRepository<T>
-        where T : class, IDBEntity
+    public class DbRepository<T> : IDbRepository<T>
+        where T : class, IDbEntity
     {
         DbContext _context;
 
-        public DBRepository(DbContext context)
+        public DbRepository(DbContext context)
         {
             _context = context;
         }

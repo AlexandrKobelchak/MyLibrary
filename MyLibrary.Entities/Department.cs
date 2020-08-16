@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataDomain.Entities
+namespace MyLibrary.Entities
 {
     [Table("departments")]
-    public class Department : DBEntity
+    public class Department : DbEntity
     {
         [Column("name")]
         [StringLength(64)]

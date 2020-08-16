@@ -5,10 +5,10 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace DataDomain.Entities
+namespace MyLibrary.Entities
 {
     [Table("press")]
-    public class Press : DBEntity
+    public class Press : DbEntity
     {
        
         [StringLength(64)]

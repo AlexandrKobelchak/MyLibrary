@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MyLibrary.Domain
 {
-    public interface IDBEntity
+    public interface IDbEntity
     {
         [Key]
         public Guid Id { get; set; }

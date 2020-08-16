@@ -1,5 +1,5 @@
-﻿using DataDomain.Context;
-using DataDomain.Entities;
+﻿using MyLibrary.Context;
+using MyLibrary.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System;

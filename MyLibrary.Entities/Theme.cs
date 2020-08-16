@@ -5,10 +5,10 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace DataDomain.Entities
+namespace MyLibrary.Entities
 {
     [Table("themes")]
-    public class Theme : DBEntity
+    public class Theme : DbEntity
     {   
         [StringLength(64)]
         [Column("name")]

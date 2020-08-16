@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MyLibrary.Domain
 {
-    public class DBEntity
+    public class DbEntity:IDbEntity
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

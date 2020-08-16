@@ -5,10 +5,10 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace DataDomain.Entities
+namespace MyLibrary.Entities
 {
     [Table("groups")]
-    public class Group : DBEntity
+    public class Group : DbEntity
     {
 
         [StringLength(64)]

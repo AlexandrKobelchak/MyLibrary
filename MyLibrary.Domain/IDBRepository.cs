@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace MyLibrary.Domain
 {
-    public interface IDBRepository<T>
-          where T : class, IDBEntity
+    public interface IDbRepository<T>
+          where T : class, IDbEntity
     {
         IQueryable<T> AllItems { get; }
         DbContext Context { get; }

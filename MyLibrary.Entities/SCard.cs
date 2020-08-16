@@ -6,10 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataDomain.Entities
+namespace MyLibrary.Entities
 {
     [Table("sCards")]
-    public class SCard : DBEntity
+    public class SCard : DbEntity
     {
         public Book Book { get; set; }
         public Librarian Librarian { get; set; }

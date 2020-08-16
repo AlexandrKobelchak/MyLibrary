@@ -1,11 +1,11 @@
-﻿using DataDomain.Entities;
+﻿using MyLibrary.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataDomain.Context
+namespace MyLibrary.Context
 {
     public class MyAppDbContext : DbContext
     {
