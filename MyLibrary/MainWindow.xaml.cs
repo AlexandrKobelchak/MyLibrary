@@ -26,23 +26,10 @@ namespace MyLibrary
     {
         public MainWindow()
         {
-            MyAppDbContext context = new MyAppDbContext(
-                new DbContextOptionsBuilder<MyAppDbContext>()
-                    .UseSqlServer(new SqlConnectionStringBuilder
-                    {
-                        DataSource = "127.0.0.1",
-                        InitialCatalog = "Univercity",
-                        IntegratedSecurity = true
-                    }.ConnectionString)
-                    .Options);
             
 
-
-            context.Database.EnsureDeleted();
-            context.Database.EnsureCreated();
-
-            context.Faculties.Add(new Faculty { Name = "F2" });
-            context.SaveChanges();
+            //context.Faculties.Add(new Faculty { Name = "F2" });
+            //context.SaveChanges();
 
             InitializeComponent();
         }

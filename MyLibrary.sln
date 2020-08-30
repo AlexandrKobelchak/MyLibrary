@@ -9,15 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CORE", "CORE", "{024E2BF3-5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "INFRASTRUCTURE", "INFRASTRUCTURE", "{35A60AFD-9E52-4E75-9340-4CCB04800C16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary.BLL", "MyLibrary.BLL\MyLibrary.BLL.csproj", "{D15B40DF-102F-4113-81E2-9DCBBBA22758}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLibrary.BLL", "MyLibrary.BLL\MyLibrary.BLL.csproj", "{D15B40DF-102F-4113-81E2-9DCBBBA22758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary.Context", "MyLibrary.Context\MyLibrary.Context.csproj", "{374D5A76-C5CB-4C9C-917C-81F3E87DB508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLibrary.Context", "MyLibrary.Context\MyLibrary.Context.csproj", "{374D5A76-C5CB-4C9C-917C-81F3E87DB508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary.Entities", "MyLibrary.Entities\MyLibrary.Entities.csproj", "{6ACD5ADF-F531-482B-A086-7A9529DDDE33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLibrary.Entities", "MyLibrary.Entities\MyLibrary.Entities.csproj", "{6ACD5ADF-F531-482B-A086-7A9529DDDE33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary.Repositories", "MyLibrary.Repositories\MyLibrary.Repositories.csproj", "{F9B3869F-2B28-4634-9D5B-6311551C4D65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLibrary.Repositories", "MyLibrary.Repositories\MyLibrary.Repositories.csproj", "{F9B3869F-2B28-4634-9D5B-6311551C4D65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary.Domain", "MyLibrary.Domain\MyLibrary.Domain.csproj", "{473A37A4-2F34-4972-AE78-D48D8B18358B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLibrary.Domain", "MyLibrary.Domain\MyLibrary.Domain.csproj", "{473A37A4-2F34-4972-AE78-D48D8B18358B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary.ViewModels", "MyLibrary.ViewModels\MyLibrary.ViewModels.csproj", "{8F3E5162-0A03-4691-9B10-921631445427}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{473A37A4-2F34-4972-AE78-D48D8B18358B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{473A37A4-2F34-4972-AE78-D48D8B18358B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{473A37A4-2F34-4972-AE78-D48D8B18358B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F3E5162-0A03-4691-9B10-921631445427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3E5162-0A03-4691-9B10-921631445427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3E5162-0A03-4691-9B10-921631445427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3E5162-0A03-4691-9B10-921631445427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{6ACD5ADF-F531-482B-A086-7A9529DDDE33} = {35A60AFD-9E52-4E75-9340-4CCB04800C16}
 		{F9B3869F-2B28-4634-9D5B-6311551C4D65} = {35A60AFD-9E52-4E75-9340-4CCB04800C16}
 		{473A37A4-2F34-4972-AE78-D48D8B18358B} = {35A60AFD-9E52-4E75-9340-4CCB04800C16}
+		{8F3E5162-0A03-4691-9B10-921631445427} = {024E2BF3-57AA-4617-B2F5-BF96B2CC0A19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5102C4F5-D466-461D-B567-863232815FF0}

@@ -17,6 +17,7 @@
     <ProjectReference Include="..\MyLibrary.Domain\MyLibrary.Domain.csproj" />
     <ProjectReference Include="..\MyLibrary.Entities\MyLibrary.Entities.csproj" />
     <ProjectReference Include="..\MyLibrary.Repositories\MyLibrary.Repositories.csproj" />
+    <ProjectReference Include="..\MyLibrary.ViewModels\MyLibrary.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>
